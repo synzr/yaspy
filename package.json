@@ -1,0 +1,21 @@
+{
+  "name": "yaspy",
+  "version": "0.0.0",
+  "description": "Сервис, который отслеживает клиенты Яндекс.Музыки",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:dev": "nodemon src/index.js",
+    "lint": "standard --fix"
+  },
+  "keywords": [],
+  "author": {
+    "name": "mikhail \"synzr\"",
+    "email": "mikhail@tskau.team"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "standard": "^17.1.0"
+  }
+}
